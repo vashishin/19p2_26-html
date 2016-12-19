@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<style>
+    .cala
+    {
+        width: 200px;
+        height: 200px;
+        background-color: red;
+        border: 1px solid red;
+        position: absolute;
+        left: 0px;
+        
+        
+    }
+    .cala:hover
+    {
+        
+        background-color: azure;
+        border: 20px solid green;
+       
+        width: 300px;
+      
+        transition:   left 5s /*cubic-bezier(0.62,0.9833,0.9999,3.7)*/,background-color 3s, border 3s, width 3s, height 3s;
+       left: 150px;
+     
+    }
+    img
+    {
+       
+        width: 10%;
+        float: left;
+        position: absolute;
+        opacity: 0.2;
+    }
+    img:hover
+    {
+/*        transform: rotate(67.5deg);*/
+         opacity: 1;
+        transition: opacity 2s;
+/*        transform-origin: bottom right;*/
+/*        transform: scaleX(-0.5);*/
+/*        transform: translateX(50px);*/
+/*        transform: skewX(65deg);*/
+/*
+        opacity: .2;
+        transform: translateX(160px);
+        transition-property: opacity, transform;
+        transition-duration: 4s,4s;
+        
+*/
+        transform: opacity 1s;
+       
+    }
+    p
+    {
+        
+        opacity: 0; 
+    }
+    .suk
+    {
+        color: red;
+       
+        
+        
+    }
+    
+    </style>
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+   <div class="cala"></div>
+    <img src="../common-toxicities-cats.png" alt=""><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum accusamus minima quod aperiam esse in reiciendis similique tenetur saepe deleniti culpa nobis inventore, enim voluptatibus sed quidem tempore nihil temporibus.</p>    
+<!--    <img src="../door.png" alt="">-->
+
+        
+</body>
+</html>
