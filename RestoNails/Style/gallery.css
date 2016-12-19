@@ -1,0 +1,58 @@
+.The_Gallery p {
+    font-size: 22px;
+    font-family: Myfont;
+    color: rgb(59, 59, 59);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 2.727;
+    position: absolute;
+    left: 178.426px;
+    top: 2021.003px;
+    z-index: 33;
+}
+
+.The_Gallery {
+    margin-top: 150px;
+    height: 430px;
+    width: 1500px;
+}
+
+.tech-slideshow {
+    height: 430px;
+    max-width: 1125px;
+    margin: 0 auto;
+    overflow: hidden;
+    transform: translate3d(0, 0, 0);
+}
+
+.tech-slideshow > div {
+    height: 200px;
+    width: 2526px;
+    background: url(../img/gallery/The%20Gallery.png);
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    transform: translate3d(0, 0, 0);
+}
+
+.tech-slideshow .mover-1 {
+    animation: moveSlideshow 59s linear infinite;
+}
+
+.tech-slideshow .mover-2 {
+    opacity: 0;
+    transition: opacity 0.5s ease-out;
+    background-position: 0 -200px;
+    animation: moveSlideshow 25s linear infinite;
+}
+
+.tech-slideshow:hover .mover-2 {
+    opacity: 1;
+}
+
+@keyframes moveSlideshow {
+    100% {
+        transform: translateX(-66.6666%);
+    }
+}

@@ -1,0 +1,27 @@
+.dish {
+    font-family: MyfontB;
+    font-size: 18px;
+    float: left;
+    padding-top: 80px;
+}
+
+.underline {
+    font-size: 12px;
+    font-family: MyFont;
+    color: gray;
+}
+
+.price {
+    padding-top: 80px;
+    margin-left: 480px;
+    font-family: MyFont;
+    font-size: 17px;
+}
+
+.menclass2 {
+   margin-left: -55px;
+}
+
+.menclass {
+    padding-left: 00px;
+}
