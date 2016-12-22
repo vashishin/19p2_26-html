@@ -1,0 +1,237 @@
+body{
+   background-image: url(../images/thumb.jpg) 
+}
+.container{
+    width: 1200px;
+    height: 3500px;
+    margin: 0 auto;
+    
+}
+nav{
+    background-color:#1a1818;
+    height: 100px;
+    width: inherit;
+
+    margin-left: -15px;
+    position: fixed;
+    top: 0;
+    z-index: 999;
+}
+
+.menu{
+margin-top: 35px;
+font-weight:bold;
+}
+.menu a{
+    color: #a39df0;
+}
+
+.main{
+    margin-top: 80px;
+}
+.main .main_div{
+    
+/*    border: 3px solid #0e112f;*/
+    margin-left: -15px;
+    margin-right: -15px;
+}
+.educ{
+    height: 345px;
+    background-image: url(../images/education.jpg);
+    color: #171515;
+}
+.int{
+    height: 675px;
+}
+.prof{
+    height: 675px;
+    background-image: url(../images/Professional.jpg);
+    color: #171515;
+}
+.pers{
+    height: 400px;
+    background-image: url(../images/multiple-heads.jpg);
+    color: #171515;
+}
+.int, .row{
+    
+}
+.perc{
+    background-image: url(../images/xh_perseus1.jpg);
+    height: 345px;
+    animation: sky_animation 60s linear infinite;
+}
+@keyframes sky_animation {
+    from { background-position: -1200px 100%, 0 0;}
+    to { background-position: 0 100%, 0 0; }
+   }
+   
+#foto img:hover {
+   transform:scale(1.5);            
+    transition: transform 1s;
+
+}
+.personal{
+    color: white;
+    margin-top: 70px;
+    
+    
+}
+.contacts{
+    color: white;
+    margin-top: 60px;
+    
+    font-size: 16px;
+     text-decoration: underline;
+}
+.contacts div{
+    margin-bottom: 20px;
+}
+#cont{
+    
+    font-style:italic;
+}
+#Daria{
+     font-size: 40px;
+}
+#position{
+     font-size: 25px;
+    margin-left: 98px;
+}
+#foto img{
+   margin-top: 25px;
+   margin-left: 40px;
+    margin-right: 40px;
+float: left;
+}
+.top{
+    position: absolute;
+    margin-top: -100px; 
+    visibility: hidden;
+}
+.anchor{    
+    padding-top: 100px; 
+    visibility: hidden;
+}
+#btn_top{
+    text-align: center;
+}
+button{
+    margin-top: 15px;
+}
+.sign{
+    margin-top: -15px;
+    margin-left: 51px;
+    font-size: 20px;
+    color: azure;
+    
+}
+.ellipse{
+    margin-top: -33px;
+    z-index: -1;
+    margin-left: 40px;
+    
+
+}
+#ed{
+    font-size: 20px;
+    margin-top: 30px;
+    margin-left: 30px;
+    font-weight: bold;
+}
+#prof{
+    font-size: 20px;
+    margin-top: 30px;
+    margin-left: 30px;
+    font-weight: bold;
+}
+#ed li{
+    margin-bottom: 20px;
+}
+#prof li{
+    margin-bottom: 20px;
+}
+#pers{
+    font-size: 20px;
+    margin-top: 30px;
+    margin-left: 30px;
+    font-weight: bold;
+}
+#pers li{
+    margin-bottom: 20px;
+}
+.name{
+    font-weight:bold;
+    margin-bottom: 8px;
+}
+.employ{
+     margin-bottom: 70px;
+}
+.carousel-inner img{
+    margin: 0 auto;
+    
+}
+
+.carousel-inner{
+    margin-top: 15px;
+}
+#greytext{
+   margin-top: 15px; 
+}
+#greytext .col-md-1{
+    margin-top: 10px;
+}
+.ellipse2{
+    opacity: 0.4;
+    margin-left: 80px;
+    
+    float: left;
+}
+.job_name{
+    margin-left: 20px;
+    font-size: 24px;
+}
+
+#line{
+        margin-top: -2px;
+    margin-left: 87px;}
+
+.empl{
+    height: 500px;
+    background-image: url(../images/employment1.jpg);
+    font-weight:bold;
+    color: #171515;
+    
+}
+.analyst{ 
+    margin-top: 50px;
+}
+.link_group button{
+    border-radius: 77%;
+    padding: 15px;
+}
+
+.dm-modal li{
+    margin-bottom: 10px;
+}
+#job{
+    font-size: 40px;
+    text-decoration: underline;
+    margin-bottom: 30px;
+    text-align: center;
+    color: #a39df0;
+     
+}
+.bs-example-modal-lg1, .bs-example-modal-lg{
+    margin-top: 10%;
+    
+}
+.modal-content li{
+    font-size: 20px;
+    margin-top: 10px;
+    color: #e5e4f8;
+    
+}
+.modal-content{
+    background-color:#1a1818;
+}
